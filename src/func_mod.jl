@@ -20,7 +20,7 @@ end
 ## =========================== ## ## =========================== ##
 """
     cost_travel(d::Int)
-Computes cost of travelling distance *b*
+Computes cost of traveling distance *b*
 """
 function cost_travel(d::Int64)
     return d
@@ -31,7 +31,7 @@ end
 ## =========================== ## ## =========================== ##
 """
     cost_all_dists(dim::Array{Int64,1})
-Computes travelling cost for all possible distances in the system.
+Computes traveling cost for all possible distances in the system.
 Returns a dictionary with:
 * key -> travelling distance *d*
 * value -> travelling cost of distance *d*
